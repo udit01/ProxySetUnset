@@ -14,3 +14,5 @@ apm config set https_proxy $https_proxy
 # npm proxy
 npm config set proxy $http_proxy
 npm config set https-proxy $https_proxy
+npm config set strict-ssl false
+npm config set registry "http://registry.npmjs.org/"
